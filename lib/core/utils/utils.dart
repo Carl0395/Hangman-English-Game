@@ -1,0 +1,1 @@
+final letters = 'QWERTYUIOPASDFGHJKLÑZXCVBNM'.split('');
