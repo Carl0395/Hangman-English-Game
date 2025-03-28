@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hangman_english_learn/core/utils/utils.dart';
 
 class KeyButton extends StatelessWidget {
   final String? letter;
@@ -17,14 +18,9 @@ class KeyButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(4),
         elevation: 1,
         child: InkWell(
-          // highlightColor: Colors.amber,
-          // splashColor: Colors.red,
-          // hoverColor: Colors.yellow,
-          // focusColor: Colors.green,
-          // overlayColor: Colors.blue,
-          // overlayColor: WidgetStateProperty.all(Colors.blue),
           onTap: () {
             HapticFeedback.lightImpact();
+            playKeyboardSound();
           },
           child: Container(
             height: 40,
