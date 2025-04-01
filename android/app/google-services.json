@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "358472860686",
+    "project_id": "hangman-english-game",
+    "storage_bucket": "hangman-english-game.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358472860686:android:fe04852350890c8c8c285f",
+        "android_client_info": {
+          "package_name": "co.caospinap.hangman_english_learn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNsAHK9g49iT7De8on8CYq-5StHrP283w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

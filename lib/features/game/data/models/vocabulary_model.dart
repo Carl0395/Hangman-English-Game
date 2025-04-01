@@ -18,4 +18,12 @@ class VocabularyModel extends Vocabulary {
   Map<String, dynamic> toJson() {
     return {'id': id, 'word': word, 'translation': translation};
   }
+
+  factory VocabularyModel.fromEntity(Vocabulary vocabulary) {
+    return VocabularyModel(
+      id: vocabulary.id,
+      word: vocabulary.word,
+      translation: vocabulary.translation,
+    );
+  }
 }

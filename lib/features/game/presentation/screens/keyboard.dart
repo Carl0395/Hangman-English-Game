@@ -33,6 +33,7 @@ class Keyboard extends StatelessWidget {
               width: 40,
               icon: Icon(Icons.backspace_outlined, size: 20),
               color: Color(0xFFABB1BA),
+              onTap: (key) {},
             ),
           ],
         ),

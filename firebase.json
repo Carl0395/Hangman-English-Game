@@ -1,13 +1,1 @@
-{
-  "hosting": {
-    "source": ".",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "frameworksBackend": {
-      "region": "us-central1"
-    }
-  }
-}
+{"hosting":{"source":".","ignore":["firebase.json","**/.*","**/node_modules/**"],"frameworksBackend":{"region":"us-central1"}},"flutter":{"platforms":{"android":{"default":{"projectId":"hangman-english-game","appId":"1:358472860686:android:fe04852350890c8c8c285f","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"hangman-english-game","appId":"1:358472860686:ios:3ee4afe063dbca4d8c285f","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"macos":{"default":{"projectId":"hangman-english-game","appId":"1:358472860686:ios:3ee4afe063dbca4d8c285f","uploadDebugSymbols":false,"fileOutput":"macos/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"hangman-english-game","configurations":{"android":"1:358472860686:android:fe04852350890c8c8c285f","ios":"1:358472860686:ios:3ee4afe063dbca4d8c285f","macos":"1:358472860686:ios:3ee4afe063dbca4d8c285f","web":"1:358472860686:web:ad1bfaf6190b5ce08c285f","windows":"1:358472860686:web:a5036fc54e9fb6428c285f"}}}}}}

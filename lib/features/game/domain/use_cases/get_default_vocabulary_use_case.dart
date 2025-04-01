@@ -8,5 +8,7 @@ class GetDefaultVocabularyUseCase {
   GetDefaultVocabularyUseCase({required this.repository});
 
   /// This method is called automatically when the use case is invoked
-  Future<(Failure?, List<Vocabulary>?)> call() {}
+  Future<(Failure?, List<Vocabulary>?)> call() {
+    return repository.getDefaultVocabulary();
+  }
 }

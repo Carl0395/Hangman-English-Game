@@ -7,7 +7,15 @@ class KeyButton extends StatelessWidget {
   final Widget? icon;
   final Color? color;
   final double? width;
-  const KeyButton({super.key, this.letter, this.icon, this.color, this.width});
+  final void Function(String key)? onTap;
+  const KeyButton({
+    super.key,
+    this.letter,
+    this.icon,
+    this.color,
+    this.width,
+    this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -19,6 +27,7 @@ class KeyButton extends StatelessWidget {
         elevation: 1,
         child: InkWell(
           onTap: () {
+            onTap?.call(letter ?? '');
             HapticFeedback.lightImpact();
             playKeyboardSound();
           },
